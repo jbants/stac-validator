@@ -8,7 +8,7 @@ except ImportError:
 
 req_path = os.path.join(os.path.abspath(os.path.dirname(__file__)), "requirements.txt")
 
-__version__ = open("./VERSION", "r").read().strip()
+__version__ = open("./__version__", "r").read().strip()
 
 with open("README.md", "r") as fh:
     long_description = fh.read()

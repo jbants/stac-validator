@@ -1,1 +1,1 @@
-__version__ = open("./VERSION", "r").read().strip()
+__version__ = open("./__version__", "r").read().strip()
